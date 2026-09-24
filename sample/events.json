@@ -1,0 +1,16 @@
+{
+  "window": 5,
+  "expected": 1000,
+  "sweep_at": 20,
+  "expired_id": "e1",
+  "events": [
+    {"id": "e1", "at": 0},
+    {"id": "e2", "at": 3},
+    {"id": "e1", "at": 4},
+    {"id": "e3", "at": 8},
+    {"id": "e2", "at": 9},
+    {"id": "e4", "at": 15},
+    {"id": "e5", "at": 19},
+    {"id": "e3", "at": 21}
+  ]
+}
